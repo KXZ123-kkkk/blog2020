@@ -1,0 +1,23 @@
+.container {
+	position: relative;
+	background-color: #cdc5b4;
+}
+@media only screen and ( max-width: 780px)
+.el-col-sm-12 {
+    width: 100%/24*12;
+}
+
+
+@media only screen and ( max-width: 1000px) and ( min-width: 780px)
+.el-col-sm-12 {
+    width: 100%/24*12;
+}
+
+@media only screen and ( max-width: 1200px) and ( min-width: 1000px)
+.el-col-md-12 {
+    width: 100%/24*12;
+}
+@media only screen and (min-width: 1200px)
+.el-col-lg-12 {
+    width: 100%/24*12;
+}

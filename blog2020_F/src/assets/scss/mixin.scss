@@ -1,0 +1,7 @@
+@mixin position($pos:absolute,$top:0,$left:0,$w:100%,$h:100%) {
+    position: $pos !important;
+    top: $top;
+    left: $left;
+    width: $w;
+    height: $h;
+}

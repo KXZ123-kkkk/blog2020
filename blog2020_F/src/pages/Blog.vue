@@ -11,7 +11,7 @@
 					<div class=" item_inner">
 						<div class="title">
 							<router-link :to="{'name':'passage',params:{id:item.id}}"><span style="margin-left: 50px; color: #551A8B;">{{item.title}}</span></router-link>
-							<a :href="item.gitHubUrl" style="color: #551A8B;"><span class="iconfont icon-GitHub" style="font-size: 38px; float: right; margin-right: 30px; color: black;"></span></a>
+							<a :href="item.gitHubUrl"  style="color: #551A8B; " target="_blank"><span class="iconfont icon-GitHub" style="font-size: 38px; float: right; margin-right: 30px; color: black;"></span></a>
 						</div>
 						<div class="time">
 							<span>{{item.Create_Time}}</span>

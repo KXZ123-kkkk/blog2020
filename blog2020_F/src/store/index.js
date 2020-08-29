@@ -7,7 +7,8 @@ Vue.use(Vuex)
 
 const state = {
     leaveMessages: [],
-    webReadPerson: 0
+    webReadPerson: 0,
+	playing:true
 }
 export default new Vuex.Store({
     state,

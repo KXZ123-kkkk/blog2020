@@ -134,6 +134,9 @@
 		},
 		mounted() {
 			this.initData()
+		},
+		destroyed() {
+			
 		}
 	}
 </script>

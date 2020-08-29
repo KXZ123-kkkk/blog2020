@@ -15,12 +15,12 @@
 			</el-col>
 			
 		</el-row>
-		<Aplayer v-if="go()" class='music' :music="{
+		<!-- <Aplayer v-if="go()" class='music' :music="{
 		    title: 'cloud 9',
 		    artist: 'tobu',
 			src:'http://47.113.81.118:8888/media/music/save Me.flac'
 		  }"
-		 :list='musicList' :mini='false' :listFolded='true' :float='true' :mutex='false' />
+		 :list='musicList' :mini='false' :listFolded='true' :float='true' :mutex='false' /> -->
 		
 	</div>
 	

@@ -5,7 +5,7 @@
 			<router-link to="/Cartoon"><span style="float: right; margin-right: 20px; cursor: pointer;color: rgb(85, 26, 139); ">back>></span></router-link>
 		</div>
 		<div class="Head1 ">
-			<img class="animated bounceInLeft" :src="videoInfo.videoImg" style="margin-left: 30px;" />
+			<img class="animated bounceInLeft" :src="videoInfo.videoImg" style="margin-left: 30px;" width="200" height="300" />
 			<div class="animated bounceInRight" style="display: inline-block; width: 400px;float: right; margin-top: 50px;">
 				<span style="overflow-wrap:break-word; margin-left: 20px; font-size: 15px;">{{videoInfo.simpleIntroduce}}</span>
 				<div style="margin-top: 10px;">
@@ -16,8 +16,9 @@
 		<div class="content2 animated bounceInUp">
 			<div class="title2"><span>剧集</span></div>
 			<div class="video" v-for="(item,index) of videoInfo.videoInfo" :key='index'>
-				<el-button type='warning' plain size='mini' @click='showVideo(item)'>第{{index+1}}集</el-button>
+				<el-button type='warning' plain size='mini' @click='showVideo(item)' style="width: 69.36px; height: 27.56px;">第{{index+1}}集</el-button>
 			</div>
+			<div style="height: 300px;"></div>
 		</div>
 		<foot></foot>
 		<el-dialog :before-close="handleClose" :title="currentVideo.subName" :visible.sync="dialogFormVisible" v-if='dialogFormVisible'>
@@ -92,7 +93,6 @@
 		.content2 {
 			width: 600px;
 			margin-top: 40px;
-			height: 140px;
 		
 			.title2 {
 				background-color: #ff00b140;

@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="module1" />
+          <option value="kxz银行.kxz" />
+          <option value="kxz银行.x" />
+          <option value="面向对象.继承.多继承.Child.Father" />
+          <option value="面向对象.继承.多继承.Child.Mother" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

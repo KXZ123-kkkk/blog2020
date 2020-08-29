@@ -1,7 +1,7 @@
 <template>
 	<smoothres>
 		<div class='musics animated rubberBand'>
-			<Aplayer :music="music" :list='musicList' :mini='false' :float='true' :mutex='true' :autoplay='autoplay' />
+			<Aplayer :music="music" :list='musicList' :mini='false' :volume.sync="0.04" :float='true' :mutex='true' :autoplay='autoplay' />
 			<el-button class="btn2" size='mini' type='warning' plain round @click='upMusic' v-show="up">上一页</el-button>
 			<el-button class="btn1" size='mini' type='success' plain round @click='nextMusic' v-show="next">下一页</el-button>
 		</div>
@@ -27,8 +27,8 @@
 			return {
 				show: true,
 				music: {
-					title: 'cloud 9',
-					artist: 'tobu',
+					title: 'save Me!',
+					artist: '忘了',
 					src: 'http://47.113.81.118:8888/media/music/save Me.flac'
 				},
 				musicList: [],
